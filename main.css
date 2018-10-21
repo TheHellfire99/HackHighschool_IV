@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#top {
+  background: linear-gradient(45deg, red, blue);
+  text-align: center;
+  padding: 20px 30px;
+  margin: 20px 10px;
+  border: 10px solid red;
+  border-radius: 10px;
+}
+
+.header {
+  font-size: 100px;
+  color: green;
+  padding: 30px 0px;
+  transition-duration: 0.2s;
+}
+
+#para {
+  font-size: 30px;
+}
+
+#link1 {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+#hshack {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.header:hover {
+  filter: blur(3px);
+}
